@@ -1,0 +1,96 @@
+/* include padding and border */
+* {
+  box-sizing: border-box;
+}
+
+/* Style body */
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: white;
+}
+
+/* Header Section */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #8b0000;
+}
+
+/* Header Heading */
+.header h1 {
+  font-size: 50px;
+}
+
+/* footer section */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* main column */
+.maincolumn {
+  width: 60%;
+  background-color: white;
+  padding-left: 20px;
+  float: left;
+  }
+
+.sidecolumn {   
+  width: 20%;
+  background-color: #E6E6E6;
+  padding-left: 20px;
+  float: left;
+}
+
+/* Text Formay */
+.title {
+  	font-weight: bold;
+  	font-size: 175%;
+    text-align: justify;
+  	}
+.h1 {
+  	font-weight: bold;
+  	font-size: 150%;
+   	text-align: justify;
+  	}
+.h2 {
+  	font-weight: bold;
+  	font-size: 120%;
+  	text-align: justify;
+  	}
+.h3 {
+  	font-weight: bold;
+  	font-size: 110%;
+  	text-align: justify;
+  	}
+.p {
+  	font-weight: normal;
+  	font-size: 100%;
+  	text-align: justify;
+  	}
+.div {
+  	font-weight: normal;
+  	font-size: 100%;
+  	text-align: justify;
+  	}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1500px) {
+  .sidecolumn, .maincolomn, {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+  
