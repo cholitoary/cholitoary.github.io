@@ -10,6 +10,11 @@ body {
   background: white;
 }
 
+.wrapper {
+    width: 860px;
+    margin: 0 auto;
+}
+
 header {
     display: block;
   float:left;
@@ -59,31 +64,57 @@ title {
     text-align: justify;
   	}
 h1 {
-  	font-weight: bold;
-  	font-size: 150%;
-   	text-align: justify;
-  	}
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+  
 h2 {
-  	font-weight: bold;
-  	font-size: 120%;
-  	text-align: justify;
-  	}
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+  
 h3 {
-  	font-weight: bold;
-  	font-size: 110%;
-  	text-align: justify;
-  	}
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+  
 p {
-  	font-weight: normal;
-  	font-size: 100%;
-  	text-align: justify;
-  	}
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
 div {
-  	font-weight: normal;
-  	font-size: 100%;
-  	text-align: justify;
-  	}
-
+    display: block;
+}
+  
+a {
+    color: #267CB9;
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+  
 
 
   
