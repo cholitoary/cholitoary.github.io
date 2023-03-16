@@ -37,6 +37,12 @@ header, section, footer {
     width: auto;
 }
 
+@media print, screen and (max-width: 960px)
+div.wrapper {
+    width: auto;
+    margin: 0;
+}
+  
 center {
     display: block;
     text-align: -webkit-center;
