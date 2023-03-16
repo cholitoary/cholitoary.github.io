@@ -10,7 +10,37 @@ body {
   background: white;
 }
 
+header {
+    display: block;
+}
 
+section {
+    display: block;
+}
+
+@media print, screen and (max-width: 960px)
+header {
+    padding-right: 320px;
+}
+
+@media print, screen and (max-width: 960px)
+section {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px 0;
+    margin: 0 0 20px;
+  
+@media print, screen and (max-width: 960px)
+header, section, footer {
+    float: none;
+    position: static;
+    width: auto;
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+} 
 
 /* Text Formay */
 title {
