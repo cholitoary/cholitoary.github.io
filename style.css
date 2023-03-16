@@ -12,10 +12,14 @@ body {
 
 header {
     display: block;
+  float:left;
+  width:30%
 }
 
 section {
     display: block;
+  float:left;
+  width: 68%
 }
 
 @media print, screen and (max-width: 960px)
